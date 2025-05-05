@@ -12,7 +12,7 @@ These StarDict format dictionaries are created from parallel sentence alignments
 
 ## Dictionaries Available
 
-The dictionaries can be downloaded from: [dharmamitra.org/pub/dictionaries/](https://dharmamitra.org/pub/dictionaries/)
+The dictionaries can be downloaded from: [dharmamitra.org/](https://dharmamitra.org/)
 
 ## Features
 
