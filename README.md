@@ -12,7 +12,7 @@ These StarDict format dictionaries are created from parallel sentence alignments
 
 ## Dictionaries Available
 
-The Sanskrit-Tibetan dictionary is here: [MITRA sa-bo](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-skt-tib.zip)
+The Sanskrit-Tibetan dictionary is here: [MITRA sa-bo](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-skt-tib.zip)  
 The Tibetan-Sanskrit dictionary is here: [MITRA sa-bo](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-tib-skt.zip)
 
 ## Features
