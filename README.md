@@ -8,7 +8,7 @@ Automatically generated bilingual dictionaries based on parallel sentence data, 
 
 ## Overview
 
-These StarDict format dictionaries are created from parallel sentence alignments to assist in research for Sanskrit<>Tibetan. 
+These StarDict format dictionaries are created from parallel sentence alignments to assist in research for Sanskrit<>Tibetan. They can be used with GoldenDict and other compatible viewers. A Mac version is under preperation. 
 
 ## Dictionaries Available
 
