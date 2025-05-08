@@ -8,11 +8,12 @@ Automatically generated bilingual dictionaries based on parallel sentence data, 
 
 ## Overview
 
-These StarDict format dictionaries are created from parallel sentence alignments to assist in translation work for Sanskrit<>Tibetan, Sanskrit<>Chinese, and Chinese<>Tibetan. 
+These StarDict format dictionaries are created from parallel sentence alignments to assist in research for Sanskrit<>Tibetan. 
 
 ## Dictionaries Available
 
-The dictionaries can be downloaded from: [dharmamitra.org/](https://dharmamitra.org/)
+The Sanskrit-Tibetan dictionary is here: [MITRA sa-bo](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-skt-tib.zip)
+The Tibetan-Sanskrit dictionary is here: [MITRA sa-bo](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-tib-skt.zip)
 
 ## Features
 
