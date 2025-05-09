@@ -16,7 +16,9 @@ The Sanskrit-Tibetan dictionary is here: [MITRA sa-bo](https://dharmamitra.org/p
 The Tibetan-Sanskrit dictionary is here: [MITRA bo-sa](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-tib-skt.zip)  
 Warning: Each dictionary will require more than 10GB of disk space after unzipping! 
 ## Features
-
+<p align="center">
+  <img src="screenshot-skt-tib.png" alt="Dharmamitra Sanskrit-Tibetan translation example" width="400"/>
+</p>
 - Bilingual translations of terms and phrases automatically extracted from large sets of parallel sentence pairs
 - StarDict format compatible with many dictionary applications
 
