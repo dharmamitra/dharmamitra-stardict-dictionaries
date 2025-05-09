@@ -21,7 +21,7 @@ Warning: Each dictionary will require more than 10GB of disk space after unzippi
 - StarDict format compatible with many dictionary applications
 
 ## Limitations
-- The phrase entries of the dictionaries are automatically generated, and the boundary detection is therefore not always reliable. These are not manually curated dictionaries, so use with caution!
+- The phrase entries of the dictionaries are automatically generated, they are not manually checked and we don't claim that these are exhaustive resources. The boundary detection is not always reliable. These are not manually curated dictionaries, so use with caution!
 - The size is large with millions of entries based on more than 1.7m sentence pairs combined. The rendering can therefore be a bit slow depending on the entry size. 
 
 ## Usage
@@ -44,7 +44,8 @@ These dictionaries work with:
 These dictionaries are released under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 ## Acknowledgments
 
-These dictionaries are created by Sebastian Nehrdich in context of the [Dharmamitra.org](https://dharmamitra.org) project, dedicated to making work on Sanskrit, Tibetan, and Buddhist Chinese easier. 
+These dictionaries are created by Sebastian Nehrdich and Kurt Keutzer in context of the [Dharmamitra.org](https://dharmamitra.org) project with generous support by the Tsadra Foundation.
+We are dedicated to making work on Sanskrit, Tibetan, and Buddhist Chinese easier. 
 
 ## Citation
 
