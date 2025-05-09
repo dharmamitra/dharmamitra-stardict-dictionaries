@@ -17,10 +17,11 @@ The Tibetan-Sanskrit dictionary is here: [MITRA bo-sa](https://dharmamitra.org/p
 Warning: Each dictionary will require more than 10GB of disk space after unzipping! 
 ## Features
 <p align="center">
-  <img src="screenshot-skt-tib.png" alt="Dharmamitra Sanskrit-Tibetan translation example" width="400"/>
+  <img src="screenshot-mitra-skt-tib.png" alt="Dharmamitra Sanskrit-Tibetan translation example" width="600"/>
 </p>
-- Bilingual translations of terms and phrases automatically extracted from large sets of parallel sentence pairs
-- StarDict format compatible with many dictionary applications
+
+- Bilingual translations of terms and phrases automatically extracted from large sets of parallel sentence pairs  
+- StarDict format compatible with many dictionary applications  
 
 ## Limitations
 - The phrase entries of the dictionaries are automatically generated, they are not manually checked and we don't claim that these are exhaustive resources. The boundary detection is not always reliable. These are not manually curated dictionaries, so use with caution!
