@@ -52,7 +52,20 @@ We are dedicated to making work on Sanskrit, Tibetan, and Buddhist Chinese easie
 
 ## Citation
 
-Coming soon!
+
+```bibtex
+@inproceedings{nehrdich-2022-sanstib,
+    title = "{S}ans{T}ib, a {S}anskrit - {T}ibetan Parallel Corpus and Bilingual Sentence Embedding Model",
+    author = "Nehrdich, Sebastian",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.724",
+    pages = "6728--6734"
+}
+```
 
 ---
 
