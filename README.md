@@ -13,8 +13,8 @@ These StarDict format dictionaries are created from parallel sentence alignments
 ## Dictionaries Available
 
 The Sanskrit-Tibetan dictionary is here: [MITRA sa-bo](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-skt-tib.zip)  
-The Tibetan-Sanskrit dictionary is here: [MITRA bo-sa](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-tib-skt.zip)  
-Warning: Each dictionary will require more than 10GB of disk space after unzipping! 
+The Tibetan-Sanskrit dictionary is here: [MITRA bo-sa](https://dharmamitra.org/pub/dictionaries/mitra-dictionary-tib-skt.zip) 
+Warning: Each dictionary will require more than 10GB of disk space after unzipping! These contain over 4m headword entries based on 600,000 parallel Sanskrit-Tibetan sentence pairs.
 ## Features
 <p align="center">
   <img src="screenshot-mitra-skt-tib.png" alt="Dharmamitra Sanskrit-Tibetan translation example" width="600"/>
