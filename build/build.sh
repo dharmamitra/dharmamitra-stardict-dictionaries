@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Build the release zips for one MITRA lexicon from its StarDict folder.
-#   build/build.sh <stardict-dir> <short-name> <out-dir>
-#   e.g. build/build.sh ~/data/dicts/mitra-tib-llm-2026 tib ./release
+# Build the release zips for one MITRA dictionary from its StarDict folder.
+#   build/build.sh <stardict-dir> <short-name> <out-dir>   (short-name: tib-lexicon, skt-tib, ...)
+#   e.g. build/build.sh ~/data/dicts/mitra-tib-llm-2026 tib-lexicon-2026 ./release
 #
-# Produces <out-dir>/mitra-stardict-<short>-lexicon-2026.zip  (.dict compressed with dictzip)
-#      and <out-dir>/mitra-appledict-<short>-lexicon-2026.zip (built .dictionary bundle)
+# Produces <out-dir>/mitra-stardict-<short>.zip  (.dict compressed with dictzip when < 1.8 GB)
+#      and <out-dir>/mitra-appledict-<short>.zip (built .dictionary bundle)
 #
 # Needs: dictzip (Debian/Ubuntu package "dictzip"), pyglossary >= 5.4 (Python >= 3.11),
 #        Apple's Dictionary Development Kit (Xcode "Additional Tools") and xmllint.
@@ -19,18 +19,29 @@ WORK=$(mktemp -d)
 mkdir "$WORK/$NAME"
 cp "$SRC/$NAME".{idx,ifo} "$WORK/$NAME/"
 [ -f "$SRC/$NAME.syn" ] && cp "$SRC/$NAME.syn" "$WORK/$NAME/"
-dictzip -c "$SRC/$NAME.dict" > "$WORK/$NAME/$NAME.dict.dz"
-(cd "$WORK" && zip -r -q "$OUT/mitra-stardict-$SHORT-lexicon-2026.zip" "$NAME")
+# dictzip 1.13 ignores -c and compresses in place, and its chunk table overflows
+# above ~1.8 GB (corrupt .dz), so copy first and leave large dictionaries plain.
+if [ -f "$SRC/$NAME.dict.dz" ]; then
+  cp "$SRC/$NAME.dict.dz" "$WORK/$NAME/"
+else
+  cp "$SRC/$NAME.dict" "$WORK/$NAME/"
+  if [ "$(stat -c %s "$SRC/$NAME.dict" 2>/dev/null || stat -f %z "$SRC/$NAME.dict")" -lt 1800000000 ]; then
+    dictzip "$WORK/$NAME/$NAME.dict"
+  fi
+fi
+(cd "$WORK" && zip -r -q "$OUT/mitra-stardict-$SHORT.zip" "$NAME")
 
 # Apple Dictionary: pyglossary writes the DDK source (into an empty folder),
-# then the plist/CSS from build/appledict/ replace its defaults
-# (display name; the duplicate <h1> headword is hidden).
+# then the plist/CSS from build/appledict/, if present for this dictionary, replace
+# its defaults (lexica: display name; the duplicate <h1> headword is hidden).
 mkdir -p "$WORK/apple"
 pyglossary --no-progress-bar "$SRC/$NAME.ifo" "$WORK/apple/$NAME" --read-format=Stardict --write-format=AppleDict
-cp "$HERE/appledict/$NAME.plist" "$HERE/appledict/$NAME.css" "$WORK/apple/$NAME/"
+if [ -f "$HERE/appledict/$NAME.plist" ]; then
+  cp "$HERE/appledict/$NAME.plist" "$HERE/appledict/$NAME.css" "$WORK/apple/$NAME/"
+fi
 xmllint --stream --noout "$WORK/apple/$NAME/$NAME.xml"
 (cd "$WORK/apple/$NAME" && make "DICT_BUILD_TOOL_DIR=\"$DDK\"")
-ditto -c -k --keepParent "$WORK/apple/$NAME/objects/$NAME.dictionary" "$OUT/mitra-appledict-$SHORT-lexicon-2026.zip"
+ditto -c -k --keepParent "$WORK/apple/$NAME/objects/$NAME.dictionary" "$OUT/mitra-appledict-$SHORT.zip"
 
 rm -rf "$WORK"
 ls -la "$OUT"

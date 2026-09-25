@@ -59,20 +59,27 @@ The words are then also available through *Look Up* (three-finger tap or Ctrl-Cm
 
 `build/build.sh` rebuilds both release zips from a StarDict folder: `dictzip`, then pyglossary and Apple's Dictionary Development Kit. `build/appledict/` holds the plist and CSS that set the display names and hide the duplicate headword. See the comment at the top of the script for requirements.
 
-## Earlier sentence-pair dictionaries (June 2026)
+## Pairwise dictionaries (September 2026)
 
-The first MITRA dictionaries, extracted from about 1.7 million parallel sentence pairs, are still available. They have more than 4 million phrase entries per language pair, but they are not curated, phrase boundaries are not always reliable, and they are large: 1–3.3 GB per pair after unzipping.
+Six directional dictionaries between Sanskrit, Tibetan and Chinese, rebuilt from the **qwen-v2** span-alignment extraction. It replaces the June 2026 sentence-pair dictionaries. The old file names (`mitra-stardict-skt-tib.zip`, `mitra-dictionary-skt-tib.zip`, …) now also serve the new versions. Each headword lists every rendering found in the aligned parallel sentences. Examples are grouped by collection and text, and each shows both sentences with the matched words highlighted, plus the sentence-alignment score (LaBSE / Gemini) where available. Only headword–rendering pairs that survived the noise and stopword cleaning of the qwen-v2 bidictionaries are included.
 
-| Pair | StarDict | macOS (DDK source) |
-|---|---|---|
-| Sanskrit → Tibetan | [mitra-stardict-skt-tib.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-tib.zip) | [mitra-appledict-skt-tib.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-tib.zip) |
-| Tibetan → Sanskrit | [mitra-stardict-tib-skt.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-skt.zip) | [mitra-appledict-tib-skt.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-skt.zip) |
-| Sanskrit → Chinese | [mitra-stardict-skt-chn.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-chn.zip) | [mitra-appledict-skt-chn.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-chn.zip) |
-| Chinese → Sanskrit | [mitra-stardict-chn-skt.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-skt.zip) | [mitra-appledict-chn-skt.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-skt.zip) |
-| Tibetan → Chinese | [mitra-stardict-tib-chn.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-chn.zip) | [mitra-appledict-tib-chn.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-chn.zip) |
-| Chinese → Tibetan | [mitra-stardict-chn-tib.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-tib.zip) | [mitra-appledict-chn-tib.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-tib.zip) |
+| Direction | Headwords | Attestations | Examples shown | GoldenDict / StarDict | macOS Dictionary.app |
+|---|---:|---:|---:|---|---|
+| Sanskrit → Tibetan | 866,021 | 6,875,779 | 2,942,842 | [mitra-stardict-skt-tib-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-tib-qwen-2026.zip) (300 MB) | [mitra-appledict-skt-tib-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-tib-qwen-2026.zip) (943 MB) |
+| Tibetan → Sanskrit | 600,018 | 6,875,779 | 3,391,562 | [mitra-stardict-tib-skt-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-skt-qwen-2026.zip) (358 MB) | [mitra-appledict-tib-skt-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-skt-qwen-2026.zip) (759 MB) |
+| Chinese → Tibetan | 329,328 | 2,132,221 | 1,613,976 | [mitra-stardict-chn-tib-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-tib-qwen-2026.zip) (221 MB) | [mitra-appledict-chn-tib-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-tib-qwen-2026.zip) (419 MB) |
+| Tibetan → Chinese | 320,516 | 2,132,221 | 1,370,211 | [mitra-stardict-tib-chn-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-chn-qwen-2026.zip) (207 MB) | [mitra-appledict-tib-chn-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-chn-qwen-2026.zip) (457 MB) |
+| Sanskrit → Chinese | 166,315 | 1,347,447 | 680,124 | [mitra-stardict-skt-chn-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-chn-qwen-2026.zip) (82 MB) | [mitra-appledict-skt-chn-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-chn-qwen-2026.zip) (200 MB) |
+| Chinese → Sanskrit | 99,230 | 1,347,447 | 921,686 | [mitra-stardict-chn-skt-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-skt-qwen-2026.zip) (109 MB) | [mitra-appledict-chn-skt-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-skt-qwen-2026.zip) (161 MB) |
 
-The macOS zips of this set contain Dictionary Development Kit sources, which you have to build yourself with `make && make install`.
+SHA-256 checksums: [SHA256SUMS-pairwise-qwen-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-pairwise-qwen-2026.txt)
+
+- **Attestations** counts the aligned word pairs behind a direction; both directions of a language pair share them. At most 5 examples per text and 40 texts per collection are shown, with the remaining counts summarised.
+- **Tibetan** headwords are in Wylie. The Tibetan script spelling, with or without the final tsheg, also finds the entry.
+- The Sanskrit ↔ Tibetan StarDicts are about 3.3 GB after unzipping, because their `.dict` exceeds what `dictzip` can compress. The other four stay compressed on disk (80–250 MB).
+- Installation works as described for the lexica above. The macOS zips contain ready-built `.dictionary` bundles, which take 160 MB–1.2 GB once installed.
+
+The builder is `qwen-dictionaries/pairwise/build_pairwise_qwen.py` in the Dharmamitra dictionary pipeline.
 
 <p align="center">
   <img src="screenshot-mitra-skt-tib.png" alt="Dharmamitra Sanskrit-Tibetan translation example" width="600"/>
@@ -80,7 +87,7 @@ The macOS zips of this set contain Dictionary Development Kit sources, which you
 
 ## Limitations
 
-- All entries are generated automatically and have not been checked by hand. Renderings, sense divisions and grammatical labels can be wrong, and rare words are under-represented. Treat them as pointers into the texts, not as authoritative definitions, and check the cited passages.
+- All entries are generated automatically and have not been checked by hand. In the pairwise dictionaries, phrase boundaries of the aligned spans are not always reliable. Renderings, sense divisions and grammatical labels can be wrong, and rare words are under-represented. Treat them as pointers into the texts, not as authoritative definitions, and check the cited passages.
 - About 0.5% of source citations in the Tibetan Lexicon show a raw Markdown link where the source text title contains a line break.
 
 ## License
