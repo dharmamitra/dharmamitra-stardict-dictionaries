@@ -19,7 +19,7 @@ The **MITRA Tibetan Lexicon** and the **MITRA Sanskrit Lexicon** are the current
 
 SHA-256 checksums: [SHA256SUMS-lexicon-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-lexicon-2026.txt)
 
-The StarDict files are compressed with `dictzip` (`.dict.dz`), so they stay compressed on disk and GoldenDict reads them directly: about 220 MB (Tibetan) and 284 MB (Sanskrit) after unzipping. Installed, the macOS bundles take 441 MB and 595 MB.
+After unzipping, the StarDict versions take about 220 MB (Tibetan) and 284 MB (Sanskrit). Installed, the macOS versions take 441 MB and 595 MB.
 
 ### Statistics
 
@@ -40,7 +40,7 @@ The StarDict files are compressed with `dictzip` (`.dict.dz`), so they stay comp
 
 **Sanskrit Lexicon.** Headwords are Sanskrit lemmas in IAST, following the Digital Corpus of Sanskrit. 258,497 lemma entries carry senses, grammatical profiles and references to Böhtlingk & Roth (PWG). A further 73,831 entries are attested inflected forms (e.g. *atītam*, *gatvā*), each pointing to its root. Diacritic-free and hyphen-free spellings (`prajna`, `sarvadharma`) are lookup keys, so IAST input is optional. The 1,273 spellings that belong to two headwords (e.g. *āha* as a noun and as the perfect of *ah*) are merged into one entry with both articles.
 
-The entries were drafted by Gemma 4 31B from span alignments of the Dharmamitra parallel corpora (qwen-v2), and every entry or rendering meets the attestation minimum shown above.
+The entries were drafted by a language model (Gemma 4 31B) from word alignments in the Dharmamitra parallel corpora, and every entry or rendering meets the attestation minimum shown above.
 
 ### Installation
 
@@ -55,13 +55,9 @@ The entries were drafted by Gemma 4 31B from span alignments of the Dharmamitra 
 
 The words are then also available through *Look Up* (three-finger tap or Ctrl-Cmd-D) in any macOS app. To update, replace the old `.dictionary` folder and restart Dictionary.app.
 
-### Building
-
-`build/build.sh` rebuilds both release zips from a StarDict folder: `dictzip`, then pyglossary and Apple's Dictionary Development Kit. `build/appledict/` holds the plist and CSS that set the display names and hide the duplicate headword. See the comment at the top of the script for requirements.
-
 ## Pairwise dictionaries (September 2026)
 
-Six directional dictionaries between Sanskrit, Tibetan and Chinese, rebuilt from the **qwen-v2** span-alignment extraction. It replaces the June 2026 sentence-pair dictionaries. The old file names (`mitra-stardict-skt-tib.zip`, `mitra-dictionary-skt-tib.zip`, …) now also serve the new versions. Each headword lists every rendering found in the aligned parallel sentences. Examples are grouped by collection and text, and each shows both sentences with the matched words highlighted, plus the sentence-alignment score (LaBSE / Gemini) where available. Only headword–rendering pairs that survived the noise and stopword cleaning of the qwen-v2 bidictionaries are included.
+Six directional dictionaries between Sanskrit, Tibetan and Chinese, extracted from word alignments in aligned parallel sentences. They replace the June 2026 edition. Each headword lists every rendering found in the parallel texts. Examples are grouped by collection and text, and each shows both sentences with the matched words highlighted, plus the sentence-alignment score (LaBSE / Gemini) where available. Noisy pairings and function words have been filtered out.
 
 | Direction | Headwords | Attestations | Examples shown | GoldenDict / StarDict | macOS Dictionary.app |
 |---|---:|---:|---:|---|---|
@@ -76,10 +72,8 @@ SHA-256 checksums: [SHA256SUMS-pairwise-qwen-2026.txt](https://dharmamitra.org/p
 
 - **Attestations** counts the aligned word pairs behind a direction; both directions of a language pair share them. At most 5 examples per text and 40 texts per collection are shown, with the remaining counts summarised.
 - **Tibetan** headwords are in Wylie. The Tibetan script spelling, with or without the final tsheg, also finds the entry.
-- The Sanskrit ↔ Tibetan StarDicts are about 3.3 GB after unzipping, because their `.dict` exceeds what `dictzip` can compress. The other four stay compressed on disk (80–250 MB).
+- After unzipping, the Sanskrit ↔ Tibetan StarDicts take about 3.3 GB each and the other four 80–250 MB.
 - Installation works as described for the lexica above. The macOS zips contain ready-built `.dictionary` bundles, which take 160 MB–1.2 GB once installed.
-
-The builder is `qwen-dictionaries/pairwise/build_pairwise_qwen.py` in the Dharmamitra dictionary pipeline.
 
 <p align="center">
   <img src="screenshot-mitra-skt-tib.png" alt="Dharmamitra Sanskrit-Tibetan translation example" width="600"/>
@@ -87,7 +81,7 @@ The builder is `qwen-dictionaries/pairwise/build_pairwise_qwen.py` in the Dharma
 
 ## Limitations
 
-- All entries are generated automatically and have not been checked by hand. In the pairwise dictionaries, phrase boundaries of the aligned spans are not always reliable. Renderings, sense divisions and grammatical labels can be wrong, and rare words are under-represented. Treat them as pointers into the texts, not as authoritative definitions, and check the cited passages.
+- All entries are generated automatically and have not been checked by hand. In the pairwise dictionaries, the boundaries of multi-word phrases are not always reliable. Renderings, sense divisions and grammatical labels can be wrong, and rare words are under-represented. Treat them as pointers into the texts, not as authoritative definitions, and check the cited passages.
 - About 0.5% of source citations in the Tibetan Lexicon show a raw Markdown link where the source text title contains a line break.
 
 ## License
