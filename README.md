@@ -57,27 +57,25 @@ The words are then also available through *Look Up* (three-finger tap or Ctrl-Cm
 
 ## Pairwise dictionaries (September 2026)
 
-Six directional dictionaries between Sanskrit, Tibetan and Chinese, extracted from word alignments in aligned parallel sentences. Each headword lists every rendering found in the parallel texts. Examples are grouped by collection and text, and each shows both sentences with the matched words highlighted. Noisy pairings and function words have been filtered out.
+Six directional dictionaries between Sanskrit, Tibetan and Chinese, extracted from word alignments in parallel sentences.
 
-| Direction | Headwords | Attestations | Examples shown | GoldenDict / StarDict | macOS Dictionary.app |
-|---|---:|---:|---:|---|---|
-| Sanskrit → Tibetan | 866,021 | 6,875,779 | 2,942,842 | [mitra-stardict-skt-tib-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-tib-qwen-2026.zip) (300 MB) | [mitra-appledict-skt-tib-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-tib-qwen-2026.zip) (943 MB) |
-| Tibetan → Sanskrit | 600,018 | 6,875,779 | 3,391,562 | [mitra-stardict-tib-skt-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-skt-qwen-2026.zip) (358 MB) | [mitra-appledict-tib-skt-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-skt-qwen-2026.zip) (759 MB) |
-| Chinese → Tibetan | 329,328 | 2,132,221 | 1,613,976 | [mitra-stardict-chn-tib-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-tib-qwen-2026.zip) (221 MB) | [mitra-appledict-chn-tib-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-tib-qwen-2026.zip) (419 MB) |
-| Tibetan → Chinese | 320,516 | 2,132,221 | 1,370,211 | [mitra-stardict-tib-chn-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-chn-qwen-2026.zip) (207 MB) | [mitra-appledict-tib-chn-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-chn-qwen-2026.zip) (457 MB) |
-| Sanskrit → Chinese | 166,315 | 1,347,447 | 680,124 | [mitra-stardict-skt-chn-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-chn-qwen-2026.zip) (82 MB) | [mitra-appledict-skt-chn-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-chn-qwen-2026.zip) (200 MB) |
-| Chinese → Sanskrit | 99,230 | 1,347,447 | 921,686 | [mitra-stardict-chn-skt-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-skt-qwen-2026.zip) (109 MB) | [mitra-appledict-chn-skt-qwen-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-skt-qwen-2026.zip) (161 MB) |
+Each entry opens with the list of all renderings in the other language, ranked by how often they occur, with counts and shares. Below that, example sentence pairs for the most frequent renderings show the word highlighted on both sides, with links to the source texts on dharmamitra.org. Tibetan is always given in Tibetan script with Wylie alongside, both for headwords and renderings and in the example sentences. Noisy pairings and function words have been filtered out.
 
-SHA-256 checksums: [SHA256SUMS-pairwise-qwen-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-pairwise-qwen-2026.txt)
+| Direction | Headwords | Aligned occurrences | GoldenDict / StarDict | macOS Dictionary.app |
+|---|---:|---:|---|---|
+| Sanskrit → Tibetan | 866,021 | 6,875,779 | [mitra-stardict-skt-tib-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-tib-2026-09-26.zip) (244 MB) | [mitra-appledict-skt-tib-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-tib-2026-09-26.zip) (1.06 GB) |
+| Tibetan → Sanskrit | 600,018 | 6,875,779 | [mitra-stardict-tib-skt-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-skt-2026-09-26.zip) (254 MB) | [mitra-appledict-tib-skt-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-skt-2026-09-26.zip) (853 MB) |
+| Chinese → Tibetan | 329,328 | 2,132,221 | [mitra-stardict-chn-tib-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-tib-2026-09-26.zip) (166 MB) | [mitra-appledict-chn-tib-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-tib-2026-09-26.zip) (433 MB) |
+| Tibetan → Chinese | 320,516 | 2,132,221 | [mitra-stardict-tib-chn-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-chn-2026-09-26.zip) (164 MB) | [mitra-appledict-tib-chn-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-chn-2026-09-26.zip) (469 MB) |
+| Sanskrit → Chinese | 166,315 | 1,347,447 | [mitra-stardict-skt-chn-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-chn-2026-09-26.zip) (44 MB) | [mitra-appledict-skt-chn-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-chn-2026-09-26.zip) (173 MB) |
+| Chinese → Sanskrit | 99,230 | 1,347,447 | [mitra-stardict-chn-skt-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-skt-2026-09-26.zip) (40 MB) | [mitra-appledict-chn-skt-2026-09-26.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-skt-2026-09-26.zip) (105 MB) |
 
-- **Attestations** counts the aligned word pairs behind a direction; both directions of a language pair share them. At most 5 examples per text and 40 texts per collection are shown, with the remaining counts summarised.
-- **Tibetan** headwords are in Wylie. The Tibetan script spelling, with or without the final tsheg, also finds the entry.
-- After unzipping, the Sanskrit ↔ Tibetan StarDicts take about 3.3 GB each and the other four 80–250 MB.
-- Installation works as described for the lexica above. The macOS zips contain ready-built `.dictionary` bundles, which take 160 MB–1.2 GB once installed.
+SHA-256 checksums: [SHA256SUMS-pairwise-2026-09-26.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-pairwise-2026-09-26.txt)
 
-<p align="center">
-  <img src="screenshot-mitra-skt-tib.png" alt="Dharmamitra Sanskrit-Tibetan translation example" width="600"/>
-</p>
+- **Aligned occurrences** counts the aligned word pairs behind a direction; both directions of a language pair share them.
+- **Tibetan** headwords can be looked up in Wylie or in Tibetan script, with or without the final tsheg.
+- After unzipping, the Sanskrit ↔ Tibetan StarDicts take about 2.8–3 GB each, and the other four 40–170 MB.
+- Installation works as described for the lexica above. The macOS zips contain ready-built `.dictionary` bundles, which take 105 MB–1.3 GB once installed.
 
 ## Limitations
 
