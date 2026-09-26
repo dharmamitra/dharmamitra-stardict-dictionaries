@@ -57,7 +57,7 @@ The words are then also available through *Look Up* (three-finger tap or Ctrl-Cm
 
 ## Pairwise dictionaries (September 2026)
 
-Six directional dictionaries between Sanskrit, Tibetan and Chinese, extracted from word alignments in aligned parallel sentences. They replace the June 2026 edition. Each headword lists every rendering found in the parallel texts. Examples are grouped by collection and text, and each shows both sentences with the matched words highlighted, plus the sentence-alignment score (LaBSE / Gemini) where available. Noisy pairings and function words have been filtered out.
+Six directional dictionaries between Sanskrit, Tibetan and Chinese, extracted from word alignments in aligned parallel sentences. Each headword lists every rendering found in the parallel texts. Examples are grouped by collection and text, and each shows both sentences with the matched words highlighted. Noisy pairings and function words have been filtered out.
 
 | Direction | Headwords | Attestations | Examples shown | GoldenDict / StarDict | macOS Dictionary.app |
 |---|---:|---:|---:|---|---|
@@ -82,7 +82,6 @@ SHA-256 checksums: [SHA256SUMS-pairwise-qwen-2026.txt](https://dharmamitra.org/p
 ## Limitations
 
 - All entries are generated automatically and have not been checked by hand. In the pairwise dictionaries, the boundaries of multi-word phrases are not always reliable. Renderings, sense divisions and grammatical labels can be wrong, and rare words are under-represented. Treat them as pointers into the texts, not as authoritative definitions, and check the cited passages.
-- About 0.5% of source citations in the Tibetan Lexicon show a raw Markdown link where the source text title contains a line break.
 
 ## License
 
