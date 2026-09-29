@@ -14,29 +14,29 @@ The **MITRA Tibetan Lexicon** and the **MITRA Sanskrit Lexicon** are the current
 
 | Dictionary | GoldenDict / StarDict | macOS Dictionary.app |
 |---|---|---|
-| MITRA Tibetan Lexicon (2026.09.26) | [mitra-stardict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-lexicon-2026.zip) (198 MB) | [mitra-appledict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-lexicon-2026.zip) (382 MB) |
+| MITRA Tibetan Lexicon (2026.09.27) | [mitra-stardict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-lexicon-2026.zip) (274 MB) | [mitra-appledict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-lexicon-2026.zip) (474 MB) |
 | MITRA Sanskrit Lexicon (2026.09.24) | [mitra-stardict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-lexicon-2026.zip) (271 MB) | [mitra-appledict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-lexicon-2026.zip) (512 MB) |
 
 SHA-256 checksums: [SHA256SUMS-lexicon-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-lexicon-2026.txt)
 
-After unzipping, the StarDict versions take about 220 MB (Tibetan) and 284 MB (Sanskrit). Installed, the macOS versions take 441 MB and 595 MB.
+After unzipping, the StarDict versions take about 300 MB (Tibetan) and 284 MB (Sanskrit). Installed, the macOS versions take 533 MB and 595 MB.
 
 ### Statistics
 
 | | MITRA Tibetan Lexicon | MITRA Sanskrit Lexicon |
 |---|---:|---:|
-| Headwords | 223,486 | 332,328 |
-| Additional lookup keys (synonyms) | 459,173 | 648,144 |
-| Numbered senses | 251,937 | 276,692 |
-| Cited example passages | 618,208 | 982,523 |
-| Entries with English renderings | 123,256 | 234,751 |
-| Entries with Sanskrit renderings | 123,826 | — |
+| Headwords | 237,562 | 332,328 |
+| Additional lookup keys (synonyms) | 487,582 | 648,144 |
+| Numbered senses | 299,940 | 276,692 |
+| Cited example passages | 802,204 | 982,523 |
+| Entries with English renderings | 152,680 | 234,751 |
+| Entries with Sanskrit renderings | 139,802 | — |
 | Entries with Tibetan renderings | — | 148,543 |
-| Entries with Chinese renderings | 44,110 | 51,346 |
-| Linked source texts on dharmamitra.org | 8,403 | 4,113 |
+| Entries with Chinese renderings | 71,112 | 51,346 |
+| Linked source texts on dharmamitra.org | 8,817 | 4,113 |
 | Minimum attestations | 3 per entry | 2 per rendering |
 
-**Tibetan Lexicon.** Headwords are Tibetan stems in Wylie. Tibetan script, with and without the final tsheg, and inflected forms such as the agentive *bla mas* or terminative *bla mar* are lookup keys that lead to the same entry. Entries include part-of-speech profiles from a Classical Tibetan tagger, verb paradigms, and cross-references to derived forms, variants, and synonyms recorded in the Hopkins, 84000 and Rangjung Yeshe glossaries. 203,429 entries have one sense and 20,057 have two or more.
+**Tibetan Lexicon.** Headwords are Tibetan stems in Wylie. Tibetan script, with and without the final tsheg, and inflected forms such as the agentive *bla mas* or terminative *bla mar* are lookup keys that lead to the same entry. Entries include part-of-speech profiles from a Classical Tibetan tagger, verb paradigms, and cross-references to derived forms, variants, and synonyms recorded in the Hopkins, 84000 and Rangjung Yeshe glossaries. 197,483 entries have one sense and 40,079 have two or more.
 
 **Sanskrit Lexicon.** Headwords are Sanskrit lemmas in IAST, following the Digital Corpus of Sanskrit. 258,497 lemma entries carry senses, grammatical profiles and references to Böhtlingk & Roth (PWG). A further 73,831 entries are attested inflected forms (e.g. *atītam*, *gatvā*), each pointing to its root. Diacritic-free and hyphen-free spellings (`prajna`, `sarvadharma`) are lookup keys, so IAST input is optional. The 1,273 spellings that belong to two headwords (e.g. *āha* as a noun and as the perfect of *ah*) are merged into one entry with both articles.
 
