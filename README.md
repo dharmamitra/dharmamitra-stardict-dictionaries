@@ -6,7 +6,7 @@
 
 Bilingual and multilingual dictionaries for Sanskrit, Tibetan and Buddhist Chinese, generated automatically from parallel texts by [Dharmamitra](https://dharmamitra.org). They are available for GoldenDict and other StarDict viewers, and as native macOS dictionaries for Dictionary.app.
 
-## MITRA Lexica (September 2026)
+## MITRA Lexica (October 2026)
 
 The **MITRA Tibetan Lexicon** and the **MITRA Sanskrit Lexicon** are the current release. Each entry lists how a word is rendered in the other languages of the corpus, how often each rendering is attested, grammatical information, and cited example passages with the word highlighted in both languages and linked to the source text on dharmamitra.org.
 
@@ -14,33 +14,33 @@ The **MITRA Tibetan Lexicon** and the **MITRA Sanskrit Lexicon** are the current
 
 | Dictionary | GoldenDict / StarDict | macOS Dictionary.app |
 |---|---|---|
-| MITRA Tibetan Lexicon (2026.09.27) | [mitra-stardict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-lexicon-2026.zip) (274 MB) | [mitra-appledict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-lexicon-2026.zip) (474 MB) |
-| MITRA Sanskrit Lexicon (2026.09.24) | [mitra-stardict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-lexicon-2026.zip) (271 MB) | [mitra-appledict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-lexicon-2026.zip) (512 MB) |
+| MITRA Tibetan Lexicon (2026.10.20) | [mitra-stardict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-lexicon-2026.zip) (362 MB) | [mitra-appledict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-lexicon-2026.zip) (574 MB) |
+| MITRA Sanskrit Lexicon (2026.10.20) | [mitra-stardict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-lexicon-2026.zip) (282 MB) | [mitra-appledict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-lexicon-2026.zip) (527 MB) |
 
 SHA-256 checksums: [SHA256SUMS-lexicon-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-lexicon-2026.txt)
 
-After unzipping, the StarDict versions take about 300 MB (Tibetan) and 284 MB (Sanskrit). Installed, the macOS versions take 533 MB and 595 MB.
+After unzipping, the StarDict versions take about 385 MB (Tibetan) and 294 MB (Sanskrit). Installed, the macOS versions take 628 MB and 609 MB.
 
 ### Statistics
 
 | | MITRA Tibetan Lexicon | MITRA Sanskrit Lexicon |
 |---|---:|---:|
-| Headwords | 237,562 | 332,328 |
-| Additional lookup keys (synonyms) | 487,582 | 648,144 |
-| Numbered senses | 299,940 | 276,692 |
-| Cited example passages | 802,204 | 982,523 |
-| Entries with English renderings | 152,680 | 234,751 |
-| Entries with Sanskrit renderings | 139,802 | — |
-| Entries with Tibetan renderings | — | 148,543 |
-| Entries with Chinese renderings | 71,112 | 51,346 |
-| Linked source texts on dharmamitra.org | 8,817 | 4,113 |
+| Headwords | 237,545 | 331,755 |
+| Additional lookup keys (synonyms) | 487,554 | 647,275 |
+| Numbered senses | 273,622 | 279,215 |
+| Cited example passages | 1,051,396 | 967,923 |
+| Entries with English renderings | 153,291 | 234,313 |
+| Entries with Sanskrit renderings | 140,477 | — |
+| Entries with Tibetan renderings | — | 148,317 |
+| Entries with Chinese renderings | 72,561 | 51,292 |
+| Linked source texts on dharmamitra.org | 9,035 | 4,107 |
 | Minimum attestations | 3 per entry | 2 per rendering |
 
-**Tibetan Lexicon.** Headwords are Tibetan stems in Wylie. Tibetan script, with and without the final tsheg, and inflected forms such as the agentive *bla mas* or terminative *bla mar* are lookup keys that lead to the same entry. Entries include part-of-speech profiles from a Classical Tibetan tagger, verb paradigms, and cross-references to derived forms, variants, and synonyms recorded in the Hopkins, 84000 and Rangjung Yeshe glossaries. 197,483 entries have one sense and 40,079 have two or more.
+**Tibetan Lexicon.** Headwords are Tibetan stems in Wylie. Tibetan script, with and without the final tsheg, and inflected forms such as the agentive *bla mas* or terminative *bla mar* are lookup keys that lead to the same entry. Entries include part-of-speech profiles from a Classical Tibetan tagger, verb paradigms, and cross-references to derived forms, variants, and synonyms recorded in the Hopkins, 84000 and Rangjung Yeshe glossaries. 211,531 entries have one sense and 26,014 have two or more.
 
-**Sanskrit Lexicon.** Headwords are Sanskrit lemmas in IAST, following the Digital Corpus of Sanskrit. 258,497 lemma entries carry senses, grammatical profiles and references to Böhtlingk & Roth (PWG). A further 73,831 entries are attested inflected forms (e.g. *atītam*, *gatvā*), each pointing to its root. Diacritic-free and hyphen-free spellings (`prajna`, `sarvadharma`) are lookup keys, so IAST input is optional. The 1,273 spellings that belong to two headwords (e.g. *āha* as a noun and as the perfect of *ah*) are merged into one entry with both articles.
+**Sanskrit Lexicon.** Headwords are Sanskrit lemmas in IAST, following the Digital Corpus of Sanskrit. 257,909 lemma entries carry senses, grammatical profiles and references to Böhtlingk & Roth (PWG). A further 73,846 entries are attested inflected forms (e.g. *atītam*, *gatvā*), each pointing to its root. Diacritic-free and hyphen-free spellings (`prajna`, `sarvadharma`) are lookup keys, so IAST input is optional. The 1,258 spellings that belong to two headwords (e.g. *āha* as a noun and as the perfect of *ah*) are merged into one entry with both articles.
 
-The entries were drafted by a language model (Gemma 4 31B) from word alignments in the Dharmamitra parallel corpora, and every entry or rendering meets the attestation minimum shown above.
+The entries were drafted by a language model (Gemini 3.8 Flash) from word alignments in the Dharmamitra parallel corpora and completed from reference dictionaries for senses, names and equivalents that the corpora do not attest (Tibetan: Negi, Tibetan-language, biographical and encyclopedic dictionaries, Verbinator; Sanskrit: ITLR, Negi, Mahāvyutpatti, 84000, Hopkins, Lokesh Chandra, Hirakawa). Every corpus-based entry or rendering meets the attestation minimum shown above.
 
 ### Installation
 
