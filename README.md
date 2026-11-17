@@ -55,6 +55,36 @@ The entries were drafted by a language model (Gemini 3.8 Flash) from word alignm
 
 The words are then also available through *Look Up* (three-finger tap or Ctrl-Cmd-D) in any macOS app. To update, replace the old `.dictionary` folder and restart Dictionary.app.
 
+## MITRA Chinese Buddhist Dictionary (November 2026)
+
+The **MITRA Chinese Buddhist Dictionary** covers the vocabulary of the Chinese Buddhist canon (Taishō). Each entry gives English senses where an English translation is attested, the Sanskrit and Tibetan equivalents found in parallel texts with their frequencies, a part-of-speech profile, and cited example passages with the word highlighted in both languages and linked to the source text on dharmamitra.org.
+
+### Downloads
+
+| Dictionary | GoldenDict / StarDict | macOS Dictionary.app |
+|---|---|---|
+| MITRA Chinese Buddhist Dictionary (2026.11.17) | [mitra-stardict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-lexicon-2026.zip) (232 MB) | [mitra-appledict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-lexicon-2026.zip) (376 MB) |
+
+SHA-256 checksums: [SHA256SUMS-lexicon-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-lexicon-2026.txt)
+
+After unzipping, the StarDict version takes about 234 MB. Installed, the macOS version takes 372 MB.
+
+### Statistics
+
+| | MITRA Chinese Buddhist Dictionary |
+|---|---:|
+| Headwords | 171,446 |
+| Additional lookup keys (synonyms) | 116,760 |
+| Cited example passages | 769,314 |
+| Entries with English senses | 76,420 |
+| Entries with Sanskrit equivalents | 109,044 |
+| Entries with Tibetan equivalents | 118,232 |
+| Linked source texts on dharmamitra.org | 4,153 |
+
+Headwords are in traditional characters; simplified forms and variants are lookup keys that lead to the same entry. The English senses were drafted by a language model (Gemini 3.8 Flash) from published English translations of the Chinese texts (48,326 entries) and from English translations of their Tibetan and Sanskrit parallels (45,861 entries). The 95,026 entries for which no English is attested list their Sanskrit and Tibetan equivalents only. Tibetan is given in Wylie and in Tibetan script. Passages marked as located from Hirakawa's dictionary were found by searching the corpus for pairs recorded in Hirakawa's *Buddhist Chinese-Sanskrit Dictionary*.
+
+Installation works as described for the lexica above; the macOS bundle is `mitra-chn-llm-2026.dictionary` and appears in Dictionary.app as **MITRA Chinese Buddhist Dictionary**.
+
 ## Pairwise dictionaries (September 2026)
 
 Six directional dictionaries between Sanskrit, Tibetan and Chinese, extracted from word alignments in parallel sentences.
