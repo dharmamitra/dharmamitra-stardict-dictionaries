@@ -17,21 +17,21 @@ The **MITRA Tibetan Lexicon**, the **MITRA Sanskrit Lexicon**, the **MITRA Chine
 | MITRA Tibetan Lexicon (2026.10.20) | [mitra-stardict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-lexicon-2026.zip) (362 MB) | [mitra-appledict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-lexicon-2026.zip) (574 MB) |
 | MITRA Sanskrit Lexicon (2026.10.20) | [mitra-stardict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-lexicon-2026.zip) (282 MB) | [mitra-appledict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-lexicon-2026.zip) (527 MB) |
 | MITRA Chinese Lexicon (2026.11.17) | [mitra-stardict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-lexicon-2026.zip) (232 MB) | [mitra-appledict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-lexicon-2026.zip) (376 MB) |
-| MITRA Pali Lexicon (2026.11.18) | [mitra-stardict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-pli-lexicon-2026.zip) (38 MB) | [mitra-appledict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-pli-lexicon-2026.zip) (90 MB) |
+| MITRA Pali Lexicon (2026.11.19) | [mitra-stardict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-pli-lexicon-2026.zip) (36 MB) | [mitra-appledict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-pli-lexicon-2026.zip) (87 MB) |
 
 SHA-256 checksums: [SHA256SUMS-lexicon-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-lexicon-2026.txt)
 
-After unzipping, the StarDict versions take about 385 MB (Tibetan), 294 MB (Sanskrit), 234 MB (Chinese) and 39 MB (Pali). Installed, the macOS versions take 628 MB, 609 MB, 372 MB and 118 MB.
+After unzipping, the StarDict versions take about 385 MB (Tibetan), 294 MB (Sanskrit), 234 MB (Chinese) and 39 MB (Pali). Installed, the macOS versions take 628 MB, 609 MB, 372 MB and 115 MB.
 
 ### Statistics
 
 | | MITRA Tibetan Lexicon | MITRA Sanskrit Lexicon | MITRA Chinese Lexicon | MITRA Pali Lexicon |
 |---|---:|---:|---:|---:|
-| Headwords | 237,545 | 331,755 | 171,446 | 66,886 |
-| Additional lookup keys (synonyms) | 487,554 | 647,275 | 116,760 | 138,209 |
-| Numbered senses | 273,622 | 279,215 | 87,277 | 56,148 |
-| Cited example passages | 1,051,396 | 967,923 | 769,314 | 164,054 |
-| Entries with English renderings | 153,291 | 234,313 | 76,420 | 66,886 |
+| Headwords | 237,545 | 331,755 | 171,446 | 65,308 |
+| Additional lookup keys (synonyms) | 487,554 | 647,275 | 116,760 | 135,333 |
+| Numbered senses | 273,622 | 279,215 | 87,277 | 55,946 |
+| Cited example passages | 1,051,396 | 967,923 | 769,314 | 157,914 |
+| Entries with English renderings | 153,291 | 234,313 | 76,420 | 65,308 |
 | Entries with Sanskrit renderings | 140,477 | — | 109,044 | — |
 | Entries with Tibetan renderings | — | 148,317 | 118,232 | — |
 | Entries with Chinese renderings | 72,561 | 51,292 | — | — |
@@ -44,7 +44,7 @@ After unzipping, the StarDict versions take about 385 MB (Tibetan), 294 MB (Sans
 
 **Chinese Lexicon.** Headwords are words and phrases from the Chinese Buddhist canon (Taishō) in traditional characters; simplified forms and variants are lookup keys that lead to the same entry. English senses were written from published English translations of the Chinese texts (48,326 entries) and from English translations of their Tibetan and Sanskrit parallels (45,861 entries); 68,215 entries have one sense and 8,193 have two or more. The remaining entries, about 95,000, have no attested English and list their Sanskrit and Tibetan equivalents with frequencies instead. Tibetan is given in Wylie and in Tibetan script. Passages marked as located from Hirakawa's dictionary were found by searching the corpus for pairs recorded in Hirakawa's *Buddhist Chinese-Sanskrit Dictionary*.
 
-**Pali Lexicon.** Headwords are Pali lemmas from the Pali canon and its commentaries; inflected forms and variants are lookup keys that lead to the same entry. English senses were written from English translations aligned word by word with the Pali (Bhikkhu Bodhi, Bhikkhu Brahmali, Ānandajoti, Ñāṇamoli, U Nārada and others). Each entry gives the renderings with their counts, how often the word occurs in each part of the canon, and example sentence pairs with their translator; at most 40% of the sentence pairs of any translation are quoted, and the passages are not yet linked to the source texts. 43,518 entries have one numbered sense and 5,541 have two or more; the 22,945 words attested once have short checked glosses. Senses marked as from DPD come from the Digital Pāḷi Dictionary (dpdict.net) and are not attested in the aligned corpus.
+**Pali Lexicon.** Headwords are Pali lemmas from the Pali canon and its commentaries; inflected forms and variants are lookup keys that lead to the same entry. English senses were written from English translations aligned word by word with the Pali (Bhikkhu Bodhi, Bhikkhu Brahmali, Ānandajoti, Ñāṇamoli, U Nārada and others). Each entry gives the renderings with their counts, how often the word occurs in each part of the canon, and example sentence pairs with their translator; at most 40% of the sentence pairs of any translation are quoted, and the passages are not yet linked to the source texts. 43,384 entries have one numbered sense and 5,449 have two or more; the 16,475 words attested once have short checked glosses. Senses marked as from DPD come from the Digital Pāḷi Dictionary (dpdict.net) and are not attested in the aligned corpus. Since the build of 19 November the entries are written with the full DPD (homonyms, grammar, form analyses) as guidance, which separates homonyms, assigns inflected forms to the right headword and removes renderings that translate neighbouring words.
 
 The entries were drafted by a language model (Gemini 3.8 Flash) from word alignments in the Dharmamitra parallel corpora and completed from reference dictionaries for senses, names and equivalents that the corpora do not attest (Tibetan: Negi, Tibetan-language, biographical and encyclopedic dictionaries, Verbinator; Sanskrit: ITLR, Negi, Mahāvyutpatti, 84000, Hopkins, Lokesh Chandra, Hirakawa). Every corpus-based entry or rendering meets the attestation minimum shown above.
 
