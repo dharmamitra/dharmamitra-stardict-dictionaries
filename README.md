@@ -17,11 +17,11 @@ The **MITRA Tibetan Lexicon**, the **MITRA Sanskrit Lexicon**, the **MITRA Chine
 | MITRA Tibetan Lexicon (2026.10.20) | [mitra-stardict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-lexicon-2026.zip) (362 MB) | [mitra-appledict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-lexicon-2026.zip) (574 MB) |
 | MITRA Sanskrit Lexicon (2026.10.20) | [mitra-stardict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-lexicon-2026.zip) (282 MB) | [mitra-appledict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-lexicon-2026.zip) (527 MB) |
 | MITRA Chinese Lexicon (2026.11.17) | [mitra-stardict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-lexicon-2026.zip) (232 MB) | [mitra-appledict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-lexicon-2026.zip) (376 MB) |
-| MITRA Pali Lexicon (2026.11.18) | [mitra-stardict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-pli-lexicon-2026.zip) (32 MB) | [mitra-appledict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-pli-lexicon-2026.zip) (69 MB) |
+| MITRA Pali Lexicon (2026.11.18) | [mitra-stardict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-pli-lexicon-2026.zip) (38 MB) | [mitra-appledict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-pli-lexicon-2026.zip) (90 MB) |
 
 SHA-256 checksums: [SHA256SUMS-lexicon-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-lexicon-2026.txt)
 
-After unzipping, the StarDict versions take about 385 MB (Tibetan), 294 MB (Sanskrit), 234 MB (Chinese) and 34 MB (Pali). Installed, the macOS versions take 628 MB, 609 MB, 372 MB and 98 MB.
+After unzipping, the StarDict versions take about 385 MB (Tibetan), 294 MB (Sanskrit), 234 MB (Chinese) and 39 MB (Pali). Installed, the macOS versions take 628 MB, 609 MB, 372 MB and 118 MB.
 
 ### Statistics
 
