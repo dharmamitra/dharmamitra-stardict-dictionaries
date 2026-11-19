@@ -14,33 +14,33 @@ The **MITRA Tibetan Lexicon**, the **MITRA Sanskrit Lexicon**, the **MITRA Chine
 
 | Dictionary | GoldenDict / StarDict | macOS Dictionary.app |
 |---|---|---|
-| MITRA Tibetan Lexicon (2026.10.20) | [mitra-stardict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-lexicon-2026.zip) (362 MB) | [mitra-appledict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-lexicon-2026.zip) (574 MB) |
-| MITRA Sanskrit Lexicon (2026.10.20) | [mitra-stardict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-lexicon-2026.zip) (282 MB) | [mitra-appledict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-lexicon-2026.zip) (527 MB) |
-| MITRA Chinese Lexicon (2026.11.17) | [mitra-stardict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-lexicon-2026.zip) (232 MB) | [mitra-appledict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-lexicon-2026.zip) (376 MB) |
+| MITRA Tibetan Lexicon (2026.11.19) | [mitra-stardict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-tib-lexicon-2026.zip) (361 MB) | [mitra-appledict-tib-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-tib-lexicon-2026.zip) (572 MB) |
+| MITRA Sanskrit Lexicon (2026.11.19) | [mitra-stardict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-skt-lexicon-2026.zip) (281 MB) | [mitra-appledict-skt-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-skt-lexicon-2026.zip) (526 MB) |
+| MITRA Chinese Lexicon (2026.11.19) | [mitra-stardict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-chn-lexicon-2026.zip) (232 MB) | [mitra-appledict-chn-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-chn-lexicon-2026.zip) (376 MB) |
 | MITRA Pali Lexicon (2026.11.19) | [mitra-stardict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-stardict-pli-lexicon-2026.zip) (36 MB) | [mitra-appledict-pli-lexicon-2026.zip](https://dharmamitra.org/pub/dictionaries/mitra-appledict-pli-lexicon-2026.zip) (87 MB) |
 
 SHA-256 checksums: [SHA256SUMS-lexicon-2026.txt](https://dharmamitra.org/pub/dictionaries/SHA256SUMS-lexicon-2026.txt)
 
-After unzipping, the StarDict versions take about 385 MB (Tibetan), 294 MB (Sanskrit), 234 MB (Chinese) and 39 MB (Pali). Installed, the macOS versions take 628 MB, 609 MB, 372 MB and 115 MB.
+After unzipping, the StarDict versions take about 384 MB (Tibetan), 293 MB (Sanskrit), 234 MB (Chinese) and 39 MB (Pali). Installed, the macOS versions take 626 MB, 607 MB, 372 MB and 115 MB.
 
 ### Statistics
 
 | | MITRA Tibetan Lexicon | MITRA Sanskrit Lexicon | MITRA Chinese Lexicon | MITRA Pali Lexicon |
 |---|---:|---:|---:|---:|
-| Headwords | 237,545 | 331,755 | 171,446 | 65,308 |
-| Additional lookup keys (synonyms) | 487,554 | 647,275 | 116,760 | 135,333 |
-| Numbered senses | 273,622 | 279,215 | 87,277 | 55,946 |
-| Cited example passages | 1,051,396 | 967,923 | 769,314 | 157,914 |
-| Entries with English renderings | 153,291 | 234,313 | 76,420 | 65,308 |
-| Entries with Sanskrit renderings | 140,477 | — | 109,044 | — |
-| Entries with Tibetan renderings | — | 148,317 | 118,232 | — |
-| Entries with Chinese renderings | 72,561 | 51,292 | — | — |
-| Linked source texts on dharmamitra.org | 9,035 | 4,107 | 4,153 | — |
+| Headwords | 237,545 | 331,785 | 171,446 | 65,308 |
+| Additional lookup keys (synonyms) | 487,554 | 647,304 | 116,760 | 135,333 |
+| Numbered senses | 269,592 | 279,297 | 87,277 | 55,946 |
+| Cited example passages | 1,042,823 | 967,858 | 769,314 | 157,914 |
+| Entries with English renderings | 153,291 | 234,336 | 76,420 | 65,308 |
+| Entries with Sanskrit renderings | 138,900 | — | 109,044 | — |
+| Entries with Tibetan renderings | — | 148,338 | 118,232 | — |
+| Entries with Chinese renderings | 72,561 | 51,314 | — | — |
+| Linked source texts on dharmamitra.org | 9,029 | 4,148 | 4,153 | — |
 | Minimum attestations | 3 per entry | 2 per rendering | 1 per entry | 1 per entry |
 
-**Tibetan Lexicon.** Headwords are Tibetan stems in Wylie. Tibetan script, with and without the final tsheg, and inflected forms such as the agentive *bla mas* or terminative *bla mar* are lookup keys that lead to the same entry. Entries include part-of-speech profiles from a Classical Tibetan tagger, verb paradigms, and cross-references to derived forms, variants, and synonyms recorded in the Hopkins, 84000 and Rangjung Yeshe glossaries. 211,531 entries have one sense and 26,014 have two or more.
+**Tibetan Lexicon.** Headwords are Tibetan stems in Wylie. Tibetan script, with and without the final tsheg, and inflected forms such as the agentive *bla mas* or terminative *bla mar* are lookup keys that lead to the same entry. Entries include part-of-speech profiles from a Classical Tibetan tagger, verb paradigms, and cross-references to derived forms, variants, and synonyms recorded in the Hopkins, 84000 and Rangjung Yeshe glossaries. 214,156 entries have one sense and 23,389 have two or more.
 
-**Sanskrit Lexicon.** Headwords are Sanskrit lemmas in IAST, following the Digital Corpus of Sanskrit. 257,909 lemma entries carry senses, grammatical profiles and references to Böhtlingk & Roth (PWG). A further 73,846 entries are attested inflected forms (e.g. *atītam*, *gatvā*), each pointing to its root. Diacritic-free and hyphen-free spellings (`prajna`, `sarvadharma`) are lookup keys, so IAST input is optional. The 1,258 spellings that belong to two headwords (e.g. *āha* as a noun and as the perfect of *ah*) are merged into one entry with both articles.
+**Sanskrit Lexicon.** Headwords are Sanskrit lemmas in IAST, following the Digital Corpus of Sanskrit. 257,939 lemma entries carry senses, grammatical profiles and references to Böhtlingk & Roth (PWG). A further 73,846 entries are attested inflected forms (e.g. *atītam*, *gatvā*), each pointing to its root. Diacritic-free and hyphen-free spellings (`prajna`, `sarvadharma`) are lookup keys, so IAST input is optional. The 1,258 spellings that belong to two headwords (e.g. *āha* as a noun and as the perfect of *ah*) are merged into one entry with both articles.
 
 **Chinese Lexicon.** Headwords are words and phrases from the Chinese Buddhist canon (Taishō) in traditional characters; simplified forms and variants are lookup keys that lead to the same entry. English senses were written from published English translations of the Chinese texts (48,326 entries) and from English translations of their Tibetan and Sanskrit parallels (45,861 entries); 68,215 entries have one sense and 8,193 have two or more. The remaining entries, about 95,000, have no attested English and list their Sanskrit and Tibetan equivalents with frequencies instead. Tibetan is given in Wylie and in Tibetan script. Passages marked as located from Hirakawa's dictionary were found by searching the corpus for pairs recorded in Hirakawa's *Buddhist Chinese-Sanskrit Dictionary*.
 
